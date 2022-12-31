@@ -1,0 +1,52 @@
+.container-tags-grandparent{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    /* background-color: red; */
+    gap: 0.5em;
+    background-color: white;
+    /* box-shadow: 5px 5px 20px black; */
+}
+.container-tags .input-tag {
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+
+}
+.container-tags .input-tag[type=text]:focus{
+    border: 3px solid black;
+}
+
+.button-tag{
+    margin-top: 10px;
+    background-color: #242424;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    padding: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+.input-tag{
+    padding:.75em;
+}
+
+.button-tag:hover{
+    color:#242424;
+    background-color:white;
+}
+.button-tag:focus{
+    outline: none;
+}

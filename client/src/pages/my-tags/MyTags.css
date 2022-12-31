@@ -1,0 +1,31 @@
+.ui .button {
+  background-color: #242424;
+  color: white;
+}
+
+.header-content{
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.content  {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.input-content input {
+  width: 50%;
+  margin: auto;
+  background-color: #e4e4e4;
+  border-style: none;
+}
+

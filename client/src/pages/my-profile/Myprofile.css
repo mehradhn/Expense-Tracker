@@ -1,0 +1,14 @@
+.content .header {
+  width: 100%;
+  /* border: none; */
+  padding: 0.2em;
+}
+
+.upload-icon {
+  display: flex;
+  padding: 5px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;  
+}
+

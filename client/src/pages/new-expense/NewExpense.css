@@ -1,0 +1,13 @@
+.form-expense-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: aqua; */
+}
+.segment{
+    min-height: 120vh;
+}
+.dropdown{
+    width: 100%;
+}
